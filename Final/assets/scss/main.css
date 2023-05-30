@@ -176,7 +176,7 @@ header .header #menuIcon {
 }
 
 #about-section {
-  background-image: url(/assets/img/section_bg02.jpg);
+  background-image: url(/Final/assets/img/section_bg02.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -275,7 +275,7 @@ header .header #menuIcon {
 }
 
 footer {
-  background-image: url(/assets/img/footer_bg.jpg);
+  background-image: url(/Final/assets/img/footer_bg.jpg);
   background-size: cover;
   background-position: center;
 }
