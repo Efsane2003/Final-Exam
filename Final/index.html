@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/scss/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header">
+          <img src="./assets/img/logo (4).png" alt="" />
+          <nav>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="./favorite.html">Favorite</a></li>
+              <li><a href="add-edit.html">Add</a></li>
+            </ul>
+          </nav>
+          <i class="fa-solid fa-bars" id="menuIcon"></i>
+        </div>
+      </div>
+    </header>
+    <!-- Hero Banner -section-->
+
+    <section id="hero-banner">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/img/h1_hero.jpg"
+              class="d-block w-100 "
+              alt="..."
+            />
+            <div class="carousel-caption d-md-block  ">
+              <div class="text">
+                <div class="secces-comitted">
+                    <div class="line"></div>
+                    <h6>COMMITED TO SUCCESS</h6>
+                </div>
+                <h1>We help to grow your business</h1>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Temporibus, soluta nisi illum dicta cumque culpa nihil
+                voluptatibus.
+              </p>
+              <button>Our Services</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/img/h1_hero.jpg"
+              class="d-block w-100 "
+              alt="..."
+            />
+            <div class="carousel-caption  d-md-block">
+                <div class="text">
+                    <div class="secces-comitted">
+                        <div class="line"></div>
+                        <h6>COMMITED TO SUCCESS</h6>
+                    </div>
+                    <h1>We help to grow your business</h1>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Temporibus, soluta nisi illum dicta cumque culpa nihil
+                    voluptatibus.
+                  </p>
+                  <button>Our Services</button>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- services section -->
+    <section id="services-section">
+        <div class="container">
+            <div class="services-section">
+                <div class="succes-cimitted">
+                    <div class="line"></div>
+                    <h6>COMMITED TO SUCCESS</h6>
+                </div>
+                <h1>Our Best Services</h1>
+                <div class="col col-6"><input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></div>
+                <div class="col col-6"><button class="btn btn-warning" id="sortBtn">Asscending</button></div>
+                <div class="row">
+                    <!-- <div class=" col-sm-12 col-md-6 col-lg-4 py-4">
+                        <div class="card">
+                         <img src="./assets/img/services1.png" alt="">
+                            <div class="content">
+                                <div class="text">
+                                    <h2>Insurance Service</h2>
+                                    <p>There are many variations of passages of lorem Ipsum available but the new majority have suffered.</p>
+                                    <div class="icons">
+                                        <i class="fa-solid fa-trash"></i>
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <i class="fa-solid fa-pen-to-square"></i>
+                                    </div>
+                                   </div>
+                            </div>
+                           <div class="card-text">
+                            <h2>Insurance Service</h2>
+                            <p>There are many variations of passages of lorem Ipsum available but the new majority have suffered.</p>
+                            <div class="icons">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <i class="fa-solid fa-pen-to-square"></i>
+                            </div>
+                           </div>
+                        </div>
+                    </div> -->
+                    <!-- <div class=" col-sm-12 col-md-6 col-lg-4 py-4">
+                        <div class="card">
+                         <img src="./assets/img/services2.png" alt="">
+                            <div class="content">
+                                <div class="text">
+                                    <h2>Strategy Planning</h2>
+                                    <p>There are many variations of passages of lorem Ipsum available but the new majority have suffered.</p>
+                                    <div class="icons">
+                                        <i class="fa-solid fa-trash"></i>
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <i class="fa-solid fa-pen-to-square"></i>
+                                    </div>
+                                   </div>
+                            </div>
+                           <div class="card-text">
+                            <h2>Strategy Planning</h2>
+                            <p>There are many variations of passages of lorem Ipsum available but the new majority have suffered.</p>
+                            <div class="icons">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <i class="fa-solid fa-pen-to-square"></i>
+                            </div>
+                           </div>
+                        </div>
+                    </div>
+                    <div class=" col-sm-12 col-md-6 col-lg-4 py-4">
+                        <div class="card">
+                         <img src="./assets/img/services3.png" alt="">
+                            <div class="content">
+                                <div class="text">
+                                    <h2>Audit & Evaluation</h2>
+                                    <p>There are many variations of passages of lorem Ipsum available but the new majority have suffered.</p>
+                                    <div class="icons">
+                                        <i class="fa-solid fa-trash"></i>
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <i class="fa-solid fa-pen-to-square"></i>
+                                    </div>
+                                   </div>
+                            </div>
+                           <div class="card-text">
+                            <h2> Audit & Evaluation</h2>
+                            <p>There are many variations of passages of lorem Ipsum available but the new majority have suffered.</p>
+                            <div class="icons">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <i class="fa-solid fa-pen-to-square"></i>
+                            </div>
+                           </div>
+                        </div>
+                    </div> -->
+                </div>
+                <button class="btn btn-info" id="loadMore">Load More</button>
+            </div>
+        </div>
+    </section>
+    <!-- About Services -->
+    <section id="about-section">
+        <div class="container">
+            <div class="about-section">
+                <div class="about-image">
+                    <img src="./assets/img/about.png" alt="">
+                </div>
+                <div class="about-text">
+                    <div class="succes-cimitted">
+                        <div class="line"></div>
+                        <h6>OUR TOP SERVICES</h6>
+                    </div>
+                    <h1>Our Best Services</h1>
+                    <h6>Mollit anim laborum duis adseu dolor iuyn voluptcate velit ess cillum dolore egru lofrre dsu quality mollit anim laborumuis au dolor in voluptate velit cillu.</h6>
+<p>Mollit anim laborum.Dvcuis aute serunt iruxvfg dhjkolohr indd re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhjinulpadeserunt moll.</p>
+<button>MORE ABOUT US</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- team section -->
+    <section id="team-section">
+        <div class="container">
+            <div class="team-section">
+                <div class="succes-cimitted">
+                    <div class="line"></div>
+                    <h6>OUR PROFESSIONAL MEMBERS</h6>
+                </div>
+                <h1>Our Team Mambers</h1>
+                <div class="row">
+                    <div class=" col-sm-12 col-md-6 col-lg-4 py-4">
+                        <div class="cards">
+                            <div class="images d-flex justify-content-center">
+                                <img src="./assets/img/team2.png" alt="">
+                            </div>
+<div class="card-text">
+    <h4>Ethan Welch</h4>
+    <div class="succes-cimitted">
+        <div class="line"></div>
+        <h6>UX Designer</h6>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                    <div class=" col-sm-12 col-md-6 col-lg-4 py-4">
+                        <div class="cards">
+                            <div class="images d-flex justify-content-center ">
+                                <img src="./assets/img/team3.png" alt="">
+                            </div>
+                            <div class="card-text">
+                                <h4>Ethan Welch</h4>
+                                <div class="succes-cimitted">
+                                    <div class="line"></div>
+                                    <h6>UX Designer</h6>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class=" col-sm-12 col-md-6 col-lg-4 py-4">
+                        <div class="cards">
+                           <div class="images d-flex justify-content-center">
+                            <img src="./assets/img/team1.png" alt="">
+                           </div>
+                            <div class="card-text">
+                                <h4>Ethan Welch</h4>
+                                <div class="succes-cimitted">
+                                    <div class="line"></div>
+                                    <h6>UX Designer</h6>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- brand section -->
+   <section id="brand-section">
+    <div class="container">
+        <div class="brand-section">
+            <div class="row ">
+                <div class=" col-sm-12 col-md-6 col-lg-3 py-4 d-flex justify-content-center">
+                    <img src="./assets/img/brand1.png" alt="">
+                </div>
+                <div class=" col-sm-12 col-md-6 col-lg-3 py-4 d-flex justify-content-center">
+                    <img src="./assets/img/brand2.png" alt="">
+                </div>
+                <div class=" col-sm-12 col-md-6 col-lg-3 py-4 d-flex justify-content-center">
+                    <img src="./assets/img/brand3.png" alt="">
+                </div>
+                <div class=" col-sm-12 col-md-6 col-lg-3 py-4 d-flex justify-content-center">
+                    <img src="./assets/img/brand4.png" alt="">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+   </section>
+   <!-- FOOTER -->
+   <footer>
+<div class="container">
+    <div class="footer">
+        <p>Copyright ©2023 All rights reserved | This template is made with <i class="fa-regular fa-heart heart" ></i>  by  <span>Colorlib</span></p>
+     <ul>
+        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href=""><i class="fa-solid fa-globe"></i></i></a></li>
+        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+    </ul>
+   
+    </div>
+</div>
+   </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"
+      integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

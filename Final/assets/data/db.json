@@ -1,0 +1,48 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "img": "./assets/img/services1.png",
+      "title": "Strategy Planning",
+      "info": "There are many variations of passages of lorem Ipsum available but the new majority have suffered.",
+      "price": 12
+    },
+    {
+      "id": 3,
+      "img": "./assets/img/services2.png",
+      "title": "Audit & Evaluation",
+      "info": "There are many variations of passages of lorem Ipsum available but the new majority have suffered.",
+      "price": "4"
+    },
+    {
+      "id": 4,
+      "img": "./assets/img/services1.png",
+      "title": "Strategy Planning",
+      "info": "There are many variations of passages of lorem Ipsum available but the new majority have suffered.",
+      "price": 22
+    },
+    {
+      "id": 5,
+      "img": "./assets/img/services2.png",
+      "title": "Indostrius Planning",
+      "info": "There are many variations of passages of lorem Ipsum available but the new majority have suffered.",
+      "price": 17
+    },
+    {
+      "id": 6,
+      "img": "./assets/img/services3.png",
+      "title": "Audit & Evaluation",
+      "info": "There are many variations of passages of lorem Ipsum available but the new majority have suffered.",
+      "price": 4
+    }
+  ],
+  "favorite": [
+    {
+      "id": 3,
+      "img": "./assets/img/services3.png",
+      "title": "Audit & Evaluation",
+      "info": "There are many variations of passages of lorem Ipsum available but the new majority have suffered.",
+      "price": 5
+    }
+  ]
+}

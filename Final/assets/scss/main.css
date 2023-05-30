@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  list-style: none;
+}
+
+header {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+header .header {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header nav ul {
+  margin: 0;
+  display: flex;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+header .header nav ul li a {
+  color: #354a56;
+}
+header .header #menuIcon {
+  display: none;
+}
+@media only screen and (max-width: 992px) {
+  header .header nav {
+    display: none;
+  }
+  header .header nav ul {
+    background-color: #354a56;
+    z-index: 5;
+    top: 60px;
+    position: absolute;
+    flex-direction: column;
+    row-gap: 25px;
+    width: 100%;
+    height: 600px;
+  }
+  header .header nav ul li a {
+    color: white;
+  }
+  header .header nav.show {
+    display: block;
+  }
+  header .header #menuIcon {
+    display: block;
+  }
+}
+
+#hero-banner {
+  margin-top: 50px;
+}
+#hero-banner .text {
+  padding-bottom: 150px;
+  text-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  width: 50%;
+  display: flex;
+}
+#hero-banner .text .secces-comitted {
+  text-align: start;
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+#hero-banner .text .secces-comitted .line {
+  margin-top: 10px;
+  width: 5%;
+  background-color: #ff2143;
+  height: 2px;
+}
+#hero-banner .text .secces-comitted h6 {
+  color: #ff2143;
+}
+#hero-banner .text h1 {
+  color: black;
+}
+#hero-banner .text p {
+  color: black;
+}
+#hero-banner .text button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #ff2143;
+  color: #fff;
+}
+@media only screen and (max-width: 992px) {
+  #hero-banner .text {
+    padding-top: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #hero-banner .text {
+    padding: 0;
+    height: 0;
+  }
+}
+
+#services-section .services-section {
+  padding: 50px 0;
+}
+#services-section .services-section .succes-cimitted {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+#services-section .services-section .succes-cimitted .line {
+  margin-top: 10px;
+  width: 5%;
+  background-color: #ff2143;
+  height: 2px;
+}
+#services-section .services-section .succes-cimitted h6 {
+  color: #ff2143;
+}
+#services-section .services-section .row .card {
+  overflow: hidden;
+  text-align: center;
+}
+#services-section .services-section .row .card .content {
+  position: absolute;
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  transition: all 0.42s ease;
+  background-color: #ff2143;
+}
+#services-section .services-section .row .card .content .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+#services-section .services-section .row .card .content .text h2,
+#services-section .services-section .row .card .content .text p {
+  color: white;
+}
+#services-section .services-section .row .card .content .text i {
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+}
+#services-section .services-section .row .card .card-text {
+  width: 80%;
+}
+#services-section .services-section .row .card .card-text h2 {
+  padding-top: 10px;
+  color: #21246b;
+}
+#services-section .services-section .row .card .card-text p {
+  color: gray;
+}
+#services-section .services-section .row .card .card-text i {
+  padding: 10px;
+  color: #ff2143;
+  font-size: 24px;
+}
+#services-section .services-section .row .card:hover .content {
+  bottom: 0;
+}
+
+#about-section {
+  background-image: url(/assets/img/section_bg02.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#about-section .about-section {
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+  padding: 80px 0;
+  display: flex;
+}
+#about-section .about-section .about-image img {
+  width: 100%;
+}
+#about-section .about-section .about-text {
+  padding: 50px 0;
+  width: 50%;
+}
+#about-section .about-section .about-text .succes-cimitted {
+  display: flex;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+#about-section .about-section .about-text .succes-cimitted .line {
+  margin-top: 10px;
+  width: 7%;
+  background-color: white;
+  height: 2px;
+}
+#about-section .about-section .about-text .succes-cimitted h6 {
+  color: white;
+}
+#about-section .about-section .about-text h1 {
+  font-size: 48px;
+  color: white;
+}
+#about-section .about-section .about-text h6 {
+  color: white;
+  font-size: 22px;
+}
+#about-section .about-section .about-text p {
+  color: grey;
+  padding-bottom: 25px;
+}
+#about-section .about-section .about-text button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #ff2143;
+  color: #fff;
+}
+@media only screen and (max-width: 991px) {
+  #about-section .about-section {
+    flex-direction: column;
+  }
+  #about-section .about-section .about-text {
+    width: 100%;
+    row-gap: 20px;
+  }
+}
+
+#team-section .team-section {
+  padding: 50px 0;
+}
+#team-section .team-section .succes-cimitted {
+  display: flex;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+#team-section .team-section .succes-cimitted .line {
+  margin-top: 10px;
+  width: 5%;
+  background-color: #ff2143;
+  height: 2px;
+}
+#team-section .team-section .succes-cimitted h6 {
+  color: #ff2143;
+}
+#team-section .team-section .team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#team-section .team-section .cards .images {
+  overflow: hidden;
+}
+#team-section .team-section .cards .images img {
+  transition: all 0.42s ease;
+}
+#team-section .team-section .cards .images img:hover {
+  transform: scale(1.1);
+}
+#team-section .team-section .cards .card-text {
+  padding-left: 50px;
+}
+
+#brand-section .brand-section {
+  padding: 50px 0;
+}
+
+footer {
+  background-image: url(/assets/img/footer_bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+footer .footer {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer ul {
+  padding: 0;
+  display: flex;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+}
+footer .footer ul li a {
+  color: white;
+}
+footer .footer p {
+  color: white;
+}
+footer .footer .heart,
+footer .footer span {
+  color: red;
+}
+@media only screen and (max-width: 991px) {
+  footer .footer {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=main.css.map */
